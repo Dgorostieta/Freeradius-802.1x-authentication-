@@ -1,6 +1,6 @@
 1-Download Virtualbox for windows (https://www.virtualbox.org/).
 2-Install Debian 9 
-3-Instalacion de Freeradius.
+3-Install  Freeradius.
 
 #apt-get update
 #apt-get upgrade
@@ -8,7 +8,7 @@
 #sudo apt-get install net-tools
 #sudo apt-get install freeradius.
 
-4-Configuracion de RadiusServer
+4-Freeradius configuration
 
 -   /etc/network/interfaces
 
@@ -23,6 +23,5 @@ iface eth0 inet static
         
 #Configurar Cliente ( AccessPoint Ruckus)
 
-
-
+- /etc/freeradius/3.0/clients.conf
 
