@@ -1,2 +1,12 @@
 1-Download Virtualbox for windows (https://www.virtualbox.org/).
+2-Install Debian 9 
+3-Instalacion de Freeradius.
+
+#apt-get update
+#apt-get upgrade
+#apt-get install sudo
+#sudo apt-get install net-tools
+#sudo apt-get install freeradius.
+
+
 
