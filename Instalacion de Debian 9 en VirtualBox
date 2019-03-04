@@ -8,5 +8,21 @@
 #sudo apt-get install net-tools
 #sudo apt-get install freeradius.
 
+4-Configuracion de RadiusServer
+
+-   /etc/network/interfaces
+
+# Static IP address
+auto eth0
+iface eth0 inet static
+        address 192.168.1.100
+        netmask 255.255.255.0
+        network 192.168.1.0
+        broadcast 192.168.1.255
+        gateway 192.168.1.1
+        
+#Configurar Cliente ( AccessPoint Ruckus)
+
+
 
 
