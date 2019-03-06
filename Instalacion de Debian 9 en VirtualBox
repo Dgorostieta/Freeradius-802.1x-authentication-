@@ -25,3 +25,18 @@ iface eth0 inet static
 
 - /etc/freeradius/3.0/clients.conf
 
+client 172.168.100.10 {
+         secret = P#ssw0rd
+         shortname = AP
+}
+
+#Configurar Usuario usuario con texto plano
+
+"david"     Cleartext-Password := "P#ssw0rd"
+               Reply-Message = "Hello, %{User-Name}"
+               
+               
+
+
+
+
