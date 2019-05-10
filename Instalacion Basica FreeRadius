@@ -30,6 +30,8 @@ client 172.168.100.10 {
          shortname = AP
 }
 
+
+- /etc/freeradius/3.0/users
 #Configurar Usuario usuario con texto plano
 
 "david"     Cleartext-Password := "P#ssw0rd"
